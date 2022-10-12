@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(229, 248, 248);
+}
+
+#drop-down-menu{
+    height: 50%;
+    padding-left: 15px;
+}
+
+#logo{
+    width: 27vw;
+}
+
+#inlogen{
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    padding-right: 15px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    background-color: rgb(255, 210, 32);
+    filter: brightness(60%)
+
+}
+
+.quotte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50vw;
+}
+
+.main-quotte{
+
+text-align: center;
+font-family:'Barlow', sans-serif;
+font-weight: 999;
+color: aliceblue;
+}
+
+.quotte h3{
+
+}

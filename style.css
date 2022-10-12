@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(229, 248, 248);
+}
+
+#drop-down-menu{
+    height: 50%;
+    padding-left: 15px;
+}
+
+#logo{
+    width: 20vw;
+}
+
+#inlogen{
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    padding-right: 15px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgb(245, 198, 29);
+    filter: brightness(75%)
+
+}
+
+.main-pic{
+    height: 60%;
+    padding-bottom: 40px;
+}
+
+.quotte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50vw;
+}
+
+.main-quotte{
+
+text-align: center;
+font-weight: 100;
+font-size: large;
+color: aliceblue;
+
+}
+
+.quotte h3{
+    font-family: 'Asap', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.quotte p{
+    font-family: 'Asap', sans-serif;
+    margin-bottom: 40px;
+    width: 80vw;
+    line-height: 2rem;
+    letter-spacing: .05rem;
+}
+
+.quotte a{
+    border:3px solid rgb(128, 128, 128);
+    background-color: aliceblue;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    font-family: 'Asap', sans-serif;
+    text-decoration: none;
+    color: black;
+    letter-spacing: .07rem;
+    font-size: 1.2rem;
+}
+
+.initial-statement{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 35vh;
+    background-color:white;
+    letter-spacing: .03rem;
+    line-height: 1.6rem;
+}
+
+.initial-statement p{
+
+    width: 80vh;
+
+    font-family: 'Asap', sans-serif;
+    margin-top: 60px;
+
+}
+.blue-sec{
+    background-color: #e7f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.blue-sec .wrap{
+        padding-right: 300px;
+        padding-top: 50px;
+        font-size: 1.1rem;
+        font-family: 'Asap', sans-serif;
+
+}
+
+.meest-gekozen ul{
+    list-style: none;
+    line-height: 2rem;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+
+
+.meest-gekozen ul li{
+    border-bottom: solid gray 2.5px;
+    width: 170px;
+}
+
+.meest-gekozen ul li:first-child{
+    width: 200px;
+}
+
+.Snel-naar ul{
+    list-style: none;
+    line-height: 2rem;
+    padding-top: 15px;
+}
+
+.Snel-naar ul li{
+    border-bottom: solid gray 2.5px; 
+    width:160px;
+}
+
+.Snel-naar ul li:first-child{
+    width: 215px;
+}
+
+
+.phishing{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 20vh;
+    background-color: white;
+    width: 70vw;
+    border-radius: 15px;
+    font-family: 'Asap', sans-serif;
+    padding: 15px;
+}
+
+.yellow-sec{
+    background-color: rgb(248, 241, 202);
+    width: 80vw;
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.yellow-sec h3{
+    padding-bottom: 25px;
+}
+
+.yellow-sec h4{
+    padding-top: 20px;
+}
+
+.green{
+    background-color: rgb(0, 105, 70);
+    display: flex;
+    height: 80vh;
+    overflow-y: auto;
+    padding-top: 40px;
+
+
+}
+.green img{
+    height: 470px;
+    width: 340px;
+    object-fit: none;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.green img:hover{
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+
+    -webkit-transition: transform 0.15s ease-in-out;
+    -moz-transition:transform 0.15s ease-in-out;
+    -ms-transition:transform 0.15s ease-in-out;
+}
+
+footer{
+    height: 50vh;
+    background-color: rgb(0, 0, 149);
+
+}
+
+.drop-list select{
+    width: 50vw;
+    margin: 60px;
+    padding: 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.social{
+margin-left: 60px;
+}
+.social h4{
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Asap', sans-serif;
+}
+
+.footer-drop{
+    color: white;
+    font-family: 'Asap', sans-serif;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.footer-drop a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        display: none;
+    }
+
+}

@@ -1,0 +1,3 @@
+function findAncestor(a,b){for(;!a.classList.contains(b);)a=a.parentElement;return a}var timer=null;
+function piwikScrollListener(a){null!==timer&&clearTimeout(timer);timer=setTimeout(function(){var b=findAncestor(a.target,"base-strip").querySelector("h1");dataLayer.push({moreArticlesLoadedTitle:b?b.textContent:""},{moreArticlesLoadedContext:a.target.getAttribute("data-contextaware")},{moreArticlesLoadedSuperTitle:a.target.getAttribute("data-supertitlecategory")},{event:"moreArticlesLoaded"})},250)}var automaticArticles=document.querySelectorAll(".automatic-article \x3e ul");
+if(0<automaticArticles.length)for(i=0,len=automaticArticles.length;i<len;i++)automaticArticles[i].addEventListener("scroll",piwikScrollListener,!1);
